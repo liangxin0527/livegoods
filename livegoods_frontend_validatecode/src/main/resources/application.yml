@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: fontendvalidatecode
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 9021
+feign:
+  hystrix:
+    enabled: true

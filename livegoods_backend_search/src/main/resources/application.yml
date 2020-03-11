@@ -1,0 +1,23 @@
+spring:
+
+  application:
+    name: backendhousesearch
+  data:
+    mongodb:
+      authentication-database: admin
+      host: 192.168.197.143
+      username: lbaci
+      password: lbaci
+      database: livegoods
+      port: 27017
+    elasticsearch:
+      cluster-nodes: 192.168.197.143:9300
+      cluster-name: docker-cluster
+
+server:
+  port: 9060
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+

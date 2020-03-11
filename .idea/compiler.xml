@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="livegoods_frontend_search" />
+        <module name="livegoods_frontend_byrecommen" />
+        <module name="livegoods_backend_banner" />
+        <module name="livegoods_portal" />
+        <module name="livegoods_frontend_banner" />
+        <module name="livegoods_backend_validatecode" />
+        <module name="livegoods_backend_byrecommen" />
+        <module name="livegoods_commons" />
+        <module name="livegoods_feelback" />
+        <module name="livegoods_fontend_userlogin" />
+        <module name="livegoods_house_buyaction" />
+        <module name="livegoods_frontend_validatecode" />
+        <module name="livegoods_backend_byhot" />
+        <module name="livegoods_pojo" />
+        <module name="livegoods_rabbitmq_service" />
+        <module name="livegoods_eureka" />
+        <module name="livegoods_gateway" />
+        <module name="txclient" />
+        <module name="livegoods_backend_userlogin" />
+        <module name="livegoods_frontend_byhot" />
+        <module name="livegoods_backend_search" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="livegood_usersservice" target="1.8" />
+      <module name="livegoods_backend_banner" target="1.8" />
+      <module name="livegoods_backend_byhot" target="1.8" />
+      <module name="livegoods_backend_byrecommen" target="1.8" />
+      <module name="livegoods_backend_search" target="1.8" />
+      <module name="livegoods_backend_userlogin" target="1.8" />
+      <module name="livegoods_backend_validatecode" target="1.8" />
+      <module name="livegoods_commons" target="1.8" />
+      <module name="livegoods_eureka" target="1.8" />
+      <module name="livegoods_feelback" target="1.8" />
+      <module name="livegoods_fontend_userlogin" target="1.8" />
+      <module name="livegoods_frontend_banner" target="1.8" />
+      <module name="livegoods_frontend_byhot" target="1.8" />
+      <module name="livegoods_frontend_byrecommen" target="1.8" />
+      <module name="livegoods_frontend_search" target="1.8" />
+      <module name="livegoods_frontend_validatecode" target="1.8" />
+      <module name="livegoods_gateway" target="1.8" />
+      <module name="livegoods_house_buyaction" target="1.8" />
+      <module name="livegoods_ordersservice" target="1.8" />
+      <module name="livegoods_pojo" target="1.8" />
+      <module name="livegoods_portal" target="1.8" />
+      <module name="livegoods_rabbitmq_service" target="1.8" />
+      <module name="txclient" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="livegood_usersservice" options="-parameters" />
+      <module name="livegoods_backend_banner" options="-parameters" />
+      <module name="livegoods_backend_byhot" options="-parameters" />
+      <module name="livegoods_backend_byrecommen" options="-parameters" />
+      <module name="livegoods_backend_search" options="-parameters" />
+      <module name="livegoods_backend_userlogin" options="-parameters" />
+      <module name="livegoods_backend_validatecode" options="-parameters" />
+      <module name="livegoods_eureka" options="-parameters" />
+      <module name="livegoods_feelback" options="-parameters" />
+      <module name="livegoods_fontend_userlogin" options="-parameters" />
+      <module name="livegoods_frontend_banner" options="-parameters" />
+      <module name="livegoods_frontend_byhot" options="-parameters" />
+      <module name="livegoods_frontend_byrecommen" options="-parameters" />
+      <module name="livegoods_frontend_search" options="-parameters" />
+      <module name="livegoods_frontend_validatecode" options="-parameters" />
+      <module name="livegoods_gateway" options="-parameters" />
+      <module name="livegoods_house_buyaction" options="-parameters" />
+      <module name="livegoods_ordersservice" options="-parameters" />
+      <module name="livegoods_portal" options="-parameters" />
+      <module name="livegoods_rabbitmq_service" options="-parameters" />
+      <module name="txclient" options="-parameters" />
+    </option>
+  </component>
+</project>

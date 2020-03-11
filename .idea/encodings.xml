@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/livegoods_backend_banner" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_backend_banner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_backend_byhot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_backend_byhot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_backend_byrecommen" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_backend_byrecommen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_backend_search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_backend_search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_backend_userlogin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_backend_userlogin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_backend_validatecode" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_backend_validatecode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_feelback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_feelback/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_fontend_userlogin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_fontend_userlogin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend_banner" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend_banner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend_byhot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend_byhot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend_byrecommen" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend_byrecommen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend_search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend_search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend_validatecode" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend_validatecode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_house_buyaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_house_buyaction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_rabbitmq_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_rabbitmq_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/txclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/txclient/src/main/java" charset="UTF-8" />
+  </component>
+</project>

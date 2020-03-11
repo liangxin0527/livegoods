@@ -1,0 +1,108 @@
+spring:
+  application:
+    name: gatewayserver
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          lower-case-service-id: true
+          enabled: true
+      routes:
+        - id: feelback
+          uri: lb://FEELBACK
+          predicates:
+            - Path=/feelback
+          filters:
+            - name: Hystrix
+              args:
+                name: userLoginCodeFallback
+                fallbackUri: forward:/recommendationFallback
+
+        - id: buyactionservice
+          uri: lb://BUYACTIONSERVICE
+          predicates:
+            - Path=/buyaction,/order
+          filters:
+            - name: Hystrix
+              args:
+                name: userLoginCodeFallback
+                fallbackUri: forward:/recommendationFallback
+
+
+        - id: userloginservice
+          uri: lb://FONTENDUSERLOGIN
+          predicates:
+            - Path=/login
+          filters:
+            - name: Hystrix
+              args:
+                name: userLoginCodeFallback
+                fallbackUri: forward:/recommendationFallback
+
+
+
+        - id: searchservice
+          uri: lb://FONTENDVALIDATECODE
+          predicates:
+            - Path=/sendyzm
+          filters:
+            - name: Hystrix
+              args:
+                name: bannerfallback
+                fallbackUri: forward:/recommendationFallback
+        - id: searchservice
+          uri: lb://FONTENDSEARCHSERVICE
+          predicates:
+            - Path=/search,/details,/comment,/buytime
+          filters:
+            - name: Hystrix
+              args:
+                name: bannerfallback
+                fallbackUri: forward:/recommendationFallback
+
+        - id: recommendation
+          uri: lb://FRONTENDBYRECOMMENDATION
+          predicates:
+            - Path=/recommendation
+          filters:
+            - name: Hystrix
+              args:
+                name: bannerfallback
+                fallbackUri: forward:/recommendationFallback
+
+
+
+
+        - id: hotservice
+          uri: lb://FRONTENDBYHOT
+          predicates:
+            - Path=/hotProduct
+          filters:
+            - name: Hystrix
+              args:
+                name: hotervicefallback
+                fallbackUri: forward:/hotervicefallback
+
+
+        - id: bannerservice
+          uri: lb://FRONTENDBANNER
+          predicates:
+            - Path=/banner
+          filters:
+            - name: Hystrix
+              args:
+                name: bannerfallback
+                fallbackUri: forward:/bannerFallback
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 4060
+hystrix:
+  command:
+    buyactionservice:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000

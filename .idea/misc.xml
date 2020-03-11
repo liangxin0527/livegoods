@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/livegoods_eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_commons/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_backend_banner/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_frontend_banner/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_backend_byhot/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_frontend_byhot/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_backend_byrecommen/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_frontend_byrecommen/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_backend_search/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_frontend_search/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_backend_validatecode/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_frontend_validatecode/pom.xml" />
+        <option value="$PROJECT_DIR$/txclient/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_backend_userlogin/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_fontend_userlogin/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_rabbitmq_service/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_house_buyaction/pom.xml" />
+        <option value="$PROJECT_DIR$/livegoods_feelback/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

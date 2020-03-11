@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: backendbyhostserver
+  data:
+    mongodb:
+      host: 192.168.197.143
+      username: lbaci
+      password: lbaci
+      port: 27017
+      authentication-database: admin
+      database: livegoods
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 9080
+

@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: odersservice
+  data:
+    mongodb:
+      host: 192.168.197.143
+      username: lbaci
+      password: lbaci
+      database: livegoods
+      authentication-database: admin
+      port: 27017
+server:
+  port: 9097
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+tx-lcn:
+  client:
+    manager-address: 192.168.197.136:8070
+

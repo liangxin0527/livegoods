@@ -1,0 +1,28 @@
+spring:
+  data:
+    mongodb:
+      database: livegoods
+      host: 192.168.197.143
+      username: lbaci
+      password: lbaci
+      port: 27017
+      authentication-database: admin
+  application:
+    name: buyactionservice
+  redis:
+    database: 0
+    host: 192.168.197.143
+    port: 6379
+    password: 123456
+  rabbitmq:
+    host: 192.168.197.143
+    username: lbaci
+    password: lbaci
+
+server:
+  port: 9099
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

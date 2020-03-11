@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eurekaserver
+server:
+  port: 8761
+eureka:
+  client:
+    # 因为当前项目为服务，不需要向服务注册自己，默认为true
+    register-with-eureka: false
+    # 因为当前为非集群版eureka，所以不需要同步其他节点数据
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

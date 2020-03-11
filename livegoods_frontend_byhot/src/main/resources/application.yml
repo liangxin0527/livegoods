@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: frontendbyhot
+
+server:
+  port: 9081
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+feign:
+  hystrix:
+    enabled: true
+fastdfs_host: http://192.168.197.136:8888

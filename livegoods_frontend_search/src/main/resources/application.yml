@@ -1,0 +1,22 @@
+spring:
+  redis:
+    host: 192.168.197.143
+    port: 6379
+    database: 0
+    password: 123456
+  application:
+    name: fontendsearchservice
+
+server:
+  port: 9061
+
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+fastdfs_host: http://192.168.197.136:8888

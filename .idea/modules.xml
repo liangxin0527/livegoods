@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/livegoods_backend_banner/livegoods_backend_banner.iml" filepath="$PROJECT_DIR$/livegoods_backend_banner/livegoods_backend_banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_backend_byhot/livegoods_backend_byhot.iml" filepath="$PROJECT_DIR$/livegoods_backend_byhot/livegoods_backend_byhot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_backend_byrecommen/livegoods_backend_byrecommen.iml" filepath="$PROJECT_DIR$/livegoods_backend_byrecommen/livegoods_backend_byrecommen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_backend_search/livegoods_backend_search.iml" filepath="$PROJECT_DIR$/livegoods_backend_search/livegoods_backend_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_backend_userlogin/livegoods_backend_userlogin.iml" filepath="$PROJECT_DIR$/livegoods_backend_userlogin/livegoods_backend_userlogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_backend_validatecode/livegoods_backend_validatecode.iml" filepath="$PROJECT_DIR$/livegoods_backend_validatecode/livegoods_backend_validatecode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_commons/livegoods_commons.iml" filepath="$PROJECT_DIR$/livegoods_commons/livegoods_commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_eureka/livegoods_eureka.iml" filepath="$PROJECT_DIR$/livegoods_eureka/livegoods_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_feelback/livegoods_feelback.iml" filepath="$PROJECT_DIR$/livegoods_feelback/livegoods_feelback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_fontend_userlogin/livegoods_fontend_userlogin.iml" filepath="$PROJECT_DIR$/livegoods_fontend_userlogin/livegoods_fontend_userlogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_frontend_banner/livegoods_frontend_banner.iml" filepath="$PROJECT_DIR$/livegoods_frontend_banner/livegoods_frontend_banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_frontend_byhot/livegoods_frontend_byhot.iml" filepath="$PROJECT_DIR$/livegoods_frontend_byhot/livegoods_frontend_byhot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_frontend_byrecommen/livegoods_frontend_byrecommen.iml" filepath="$PROJECT_DIR$/livegoods_frontend_byrecommen/livegoods_frontend_byrecommen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_frontend_search/livegoods_frontend_search.iml" filepath="$PROJECT_DIR$/livegoods_frontend_search/livegoods_frontend_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_frontend_validatecode/livegoods_frontend_validatecode.iml" filepath="$PROJECT_DIR$/livegoods_frontend_validatecode/livegoods_frontend_validatecode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_gateway/livegoods_gateway.iml" filepath="$PROJECT_DIR$/livegoods_gateway/livegoods_gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_house_buyaction/livegoods_house_buyaction.iml" filepath="$PROJECT_DIR$/livegoods_house_buyaction/livegoods_house_buyaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_pojo/livegoods_pojo.iml" filepath="$PROJECT_DIR$/livegoods_pojo/livegoods_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livegoods_rabbitmq_service/livegoods_rabbitmq_service.iml" filepath="$PROJECT_DIR$/livegoods_rabbitmq_service/livegoods_rabbitmq_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txclient/txclient.iml" filepath="$PROJECT_DIR$/txclient/txclient.iml" />
+    </modules>
+  </component>
+</project>

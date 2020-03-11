@@ -1,0 +1,22 @@
+spring:
+  redis:
+    database: 0
+    host: 192.168.197.143
+    port: 6379
+    password: 123456
+  data:
+    mongodb:
+      host: 192.168.197.143
+      authentication-database: admin
+      username: lbaci
+      password: lbaci
+      port: 27017
+      database: livegoods
+  application:
+    name: rabbitmqservice
+  rabbitmq:
+    host: 192.168.197.143
+    username: lbaci
+    password: lbaci
+server:
+  port: 9000

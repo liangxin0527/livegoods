@@ -1,0 +1,19 @@
+spring:
+  data:
+    mongodb:
+      database: livegoods
+      host: 192.168.197.143
+      username: lbaci
+      password: lbaci
+      authentication-database: admin
+      port: 27017
+  application:
+    name: feelback
+server:
+  port: 9001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+

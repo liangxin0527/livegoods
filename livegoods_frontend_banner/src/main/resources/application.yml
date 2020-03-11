@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: frontendbanner
+server:
+  port: 9091
+feign:
+  hystrix:
+    enabled: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+fastdfs_host: http://192.168.197.136:8888/
